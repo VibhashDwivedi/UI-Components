@@ -151,17 +151,23 @@
 
 
 
-@media screen and (max-width: 600px){
-    .card1{
-        height: 220px;
-        width: 300px;
-        position: absolute;
-        margin-top: 40px;
-        margin-left: 30px;
-    }
-    .card2{
-        height: 220px;
-        width: 300px;
-    }
+      @media screen and (max-width: 768px){
+        .card1{
+            height: 380px;
+            width: 300px;
+            position: absolute;
+            margin-top:36px;
+            margin-left: 30px;
+        }
+        .card2{
+            height: 380px;
+            width: 300px;
+        }
+        
+        .card-container
+        {
+            padding: 50px 10px 50px 50px;
+        }
+        
     
-}
+    }
