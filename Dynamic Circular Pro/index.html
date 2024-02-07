@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
-     <script src="script.js"></script>   
+      
     <title>Circular Progress</title>
 </head>
 <body class="main vh-100">
@@ -21,16 +21,13 @@
                                     <h3 class="head">Your Progress</h3>
                                     <div class="row mt-3">
                                         <div class="col-md-4">
-                                            <div class="progress blue">
-                                                <span class="progress-left">
-                                                                  <span class="progress-bar"></span>
-                                                </span>
-                                                <span class="progress-right">
-                                                                  <span class="progress-bar"></span>
-                                                </span>
-                                                <div class="progress-value">80%</div>
-                                              </div>
-                                        </div>
+                                            <svg class="progress-ring" width="120" height="120" >
+                                                <circle class="progress-ring__background" stroke="grey" stroke-width="8" fill="transparent" r="53" cx="60" cy="60"/>
+                                                <circle class="progress-ring__circle" stroke="green" stroke-width="8" fill="transparent" r="53" cx="60" cy="60"/>
+                                                <text x="60" y="65" text-anchor="middle" stroke="black" stroke-width="2px" dy=".3em" id="progress-text">0%</text>  
+                                            </svg>
+                                            </div>
+
                                         <div class="col-md-8 pt-3">
                                             <h5>32 of 42 complete</h5>
                                             <p>Finish Course to get certificate</p>
@@ -43,6 +40,8 @@
                             </div>
                         </div>
                     </div>
+                    
+
                     <div class="card2">
 
                         <div class="card-body"></div>
@@ -53,6 +52,6 @@
         
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-   
+   <script src="script.js"></script>
 </body>
 </html>
