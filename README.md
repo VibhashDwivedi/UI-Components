@@ -21,5 +21,5 @@
 [Click here](https://www.uidesigndaily.com/posts/figma-timeline-ui-design-card-day-1578)
 ---
 ## Screenshot
-![](https://github.com/VibhashDwivedi/UI-Design/blob/main/Timeline/Screenshot/Screenshot%20(238).png)
+![](https://github.com/VibhashDwivedi/UI-Components/blob/main/Timeline/Screenshot/Screenshot%20(239).png)
 
