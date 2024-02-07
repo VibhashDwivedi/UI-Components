@@ -14,3 +14,12 @@
 ## Screenshot
 ![](https://github.com/VibhashDwivedi/UI-Design/blob/main/Dynamic%20Circular%20Pro/Screenshot/Screenshot%20(238).png)
 
+---
+---
+# 2. Timeline
+`Design Reference`:
+[Click here](https://www.uidesigndaily.com/posts/figma-timeline-ui-design-card-day-1578)
+---
+## Screenshot
+![](https://github.com/VibhashDwivedi/UI-Design/blob/main/Timeline/Screenshot/Screenshot%20(238).png)
+
